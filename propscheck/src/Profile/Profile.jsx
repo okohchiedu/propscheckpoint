@@ -1,3 +1,5 @@
+
+
 const Profile = ({fullName,bio,profession,children}) => {
     const handleName = () => alert (`Hello ${fullName}`)
     return (
@@ -21,6 +23,5 @@ Profile.defaultProps = {
     bio: "fill your bio",
     Profession: "please Input your Profession"
 }
- 
-export default Profile;
 
+export default Profile;
